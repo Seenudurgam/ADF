@@ -1,0 +1,11 @@
+{
+	"name": "linkedService-adlsweuuc29mara1test01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsweuuc29mara1test01.dfs.core.windows.net/"
+		},
+		"annotations": []
+	}
+}

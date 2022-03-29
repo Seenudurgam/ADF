@@ -1,0 +1,9 @@
+{
+	"name": "adf-weu-uc-29mara1-test-01",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0e56434f-a3c5-4ab7-93eb-ad0f9ce553bd",
+		"tenantId": "c62b5b8d-4235-4aed-8119-c6716db47e1c"
+	}
+}

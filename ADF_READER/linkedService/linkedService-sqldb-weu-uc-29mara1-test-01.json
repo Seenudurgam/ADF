@@ -1,0 +1,14 @@
+{
+	"name": "linkedService-sqldb-weu-uc-29mara1-test-01",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Data Source=sql-weu-uc-29mara1-test-01.database.windows.net;Initial Catalog=sqldb-weu-uc-29mara1-test-01;encrypt=true;Connection Timeout=30",
+			"alwaysEncryptedSettings": {
+				"alwaysEncryptedAkvAuthType": "ManagedIdentity"
+			}
+		}
+	}
+}

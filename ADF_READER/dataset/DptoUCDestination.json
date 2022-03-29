@@ -1,0 +1,20 @@
+{
+	"name": "DptoUCDestination",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedService-adlsweuuc29mara1test01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "data-access-zone"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
